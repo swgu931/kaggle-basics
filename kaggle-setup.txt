@@ -1,0 +1,22 @@
+# kaggle setup and how to download
+
+ref: https://confusedcoders.com/data-engineering/how-to-copy-kaggle-data-to-amazon-s3
+
+
+$ pip3 install kaggle
+
+- kaggle loing > my account > API > create new api token > download kaggle.json
+
+$ mkdir ~/.kaggle
+
+$ mv kaggle.json ~/.kaggle
+
+$ chmod 600 ~/.kaggle/kaggle.json
+
+- kaggle 접속, 원하는 dataset 접속, "Copy API command" 선택
+  (kaggle datasets download -d ahmedfawzyelaraby/kinect-v2-multi-objects-with-3d-positions)
+ 
+ 
+## how to download : copy from kaggle > Copy API command 
+$ kaggle datasets download -d ahmedfawzyelaraby/kinect-v2-multi-objects-with-3d-positions
+
