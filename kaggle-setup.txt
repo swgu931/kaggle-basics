@@ -16,6 +16,7 @@ $ chmod 600 ~/.kaggle/kaggle.json
 - kaggle 접속, 원하는 dataset 접속, "Copy API command" 선택
   (kaggle datasets download -d ahmedfawzyelaraby/kinect-v2-multi-objects-with-3d-positions)
  
+- unzip -d {data}.zip
  
 ## how to download : copy from kaggle > Copy API command 
 $ kaggle datasets download -d ahmedfawzyelaraby/kinect-v2-multi-objects-with-3d-positions
